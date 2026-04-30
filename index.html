@@ -29,19 +29,49 @@
   </div>
 
   <main>
-    <p><strong>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</strong></p>
-    <p><strong>Sign up <em>now</em> to get started.</strong></p>
-    <p><strong>You <em>know</em> you want to</strong></p>
+    <div class="hero">
+      <p><strong>This is not a real online service! You know you need something like this in your life to help you realize your deepest dreams.</strong></p>
+      <p><strong>Sign up <em>now</em> to get started.</strong></p>
+      <p><strong>You <em>know</em> you want to</strong></p>
+    </div>
 
     <div class="signup-box">
-      <p><strong>Let's do this!</strong></p>
-      <form action="#" method="post">
-
-      </form>
+      <h1>Let's do this!</p></h1>
+      
+      <div class="inputs">
+        <form id="signup-form" action="#" method="post">
+          <label>
+            FIRST NAME
+            <input type="text">
+          </label>
+          <label>
+            LAST NAME
+            <input type="text">
+          </label>
+          <label>
+            EMAIL
+            <input type="email">
+          </label>
+          <label>
+            PHONE NUMBER
+            <input type="tel">
+          </label>
+          <label>
+            PASSWORD
+            <input type="password" minlength="6">
+          </label>
+          <label>
+            CONFIRM PASSWORD
+            <input type="password" minlength="6">
+          </label>
+        </form>
+      </div>
     </div>
     
-    <button>Create Account</button>
-    <p>Already have an account? <a href="#">Log in</a></p>
+    <div class="signup-actions">
+      <button type="submit" form="signup-form">Create Account</button>
+      <p class="login">Already have an account? <a href="#">Log in</a></p>
+    </div>
   </main>
 </body>
 </html>
