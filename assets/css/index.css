@@ -11,8 +11,6 @@ body {
   display: flex;
   background-color: white;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-  align-items: safe center;
-  justify-items: safe center;
   background-color: rgba(249, 250, 251);
 }
 
@@ -20,6 +18,9 @@ main {
   width: 60%;
   height: 100%;
   overflow: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: safe center;
 }
 
 input {
